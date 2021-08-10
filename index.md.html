@@ -39,7 +39,6 @@
                         <a href="#home" class="nav-item nav-link active">Home</a>
                         <a href="#about" class="nav-item nav-link">About</a>
                         <a href="#experience" class="nav-item nav-link">Experience</a>
-                        <a href="#blog" class="nav-item nav-link">Blog</a>
                         <a href="#contact" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
@@ -61,8 +60,8 @@
                                 <div class="typed-text">Computer Science Major, Interest in Programming, Goal Oriented Acheiver </div>
                             </div>
                             <div class="hero-btn">
-                                <a class="btn" href="">Hire Me</a>
-                                <a class="btn" href="">Contact Me</a>
+                                <!--<a class="btn" href="">Hire Me</a>-->
+                                <a class="btn" href="#contact">Contact Me</a>
                             </div>
                         </div>
                     </div>
@@ -83,18 +82,18 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="about-img">
-                            <img src="img/about.jpg" alt="Image">
+                            <img id="aboutImg" src="img/about.jpg" alt="Image">
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="about-content">
                             <div class="section-header text-left">
-                                <p>About Me</p>
+                                <p>A little about me</p>
                                 <h2>Current OCCC Student</h2>
                             </div>
                             <div class="about-text">
                                 <p>
-                                    Graduated Community Christian High School in Norman, OK. I Love being outdoors and exploring! Computer science got my attention after taking a few computer classes in high school. I am currently on my last semester at OCCC expecting an Associates in Computer Science.
+                                    Graduated Community Christian High School in Norman, OK. I Love being outdoors and exploring! Computer science got my attention after taking a few computer classes in high school. I love solving problems using code and creating programs! I am currently in my last semester at OCCC expecting an Associates in Computer Science before 2022.
                                 </p>
                             </div>
                     </div>
@@ -212,6 +211,44 @@
         </div>
         <!-- Job Experience End -->
 
+         <!-- Contact Start -->
+         <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-8">
+                            <div class="contact-form">
+                                <div id="success"></div>
+                                <form accept-charset="UTF-8" action="https://getform.io/f/ca2df05c-225f-4df5-958e-00f2ba488fb3" method="POST" enctype="multipart/form-data" target="_blank" name="sentMessage" novalidate="novalidate">
+                                    <div >
+                                        <input type="text" class="form-control" name="first_name" placeholder="Your Name" data-validation-required-message="Please enter your name" required="required">
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div >
+                                        <input type="email" class="form-control" name="their_email" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div >
+                                        <input type="text" class="form-control" name="the_subject" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div >
+                                        <textarea class="form-control" name="the_message" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div>
+                                        <button class="btn" type="submit" >Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
 
         <!-- Footer Start -->
         <div class="footer wow fadeIn" data-wow-delay="0.3s">
@@ -225,14 +262,15 @@
                             <p>jordan.babb.1999@gmail.com</p>
                         </div>
 
-                        <!--<div class="footer-social">
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-youtube"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                        <div class="footer-social">
+                            <!--<a href=""><i class="fab fa-twitter"></i></a>-->
+                            <a href="https://www.facebook.com/jordan.babb.313"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://github.com/Hmudda"><i class="fab fa-github"></i></a>
+                            <!--<a href=""><i class="fab fa-youtube"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>-->
+                            <a href="https://www.linkedin.com/in/jordan-babb/"><i class="fab fa-linkedin-in"></i></a>
                         </div>
-                    </div>-->
+                    </div>
                 </div>
                 <div class="container copyright">
                     <p>&copy; <a href="#">Jordan Babb</a>, All Right Reserved | Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
