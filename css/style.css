@@ -7,6 +7,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+#aboutImg{
+    margin-top: 15px;
+}
+
 h1,
 h2, 
 h3, 
