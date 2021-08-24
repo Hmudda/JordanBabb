@@ -35,6 +35,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div><a id ="resumeDownload" href="img/resume.pdf" target="_blank" class="nav-item nav-link">My Resume<img src="img/download.png" alt="Download Resume" style="width:30px"></a></div>
                     <div class="navbar-nav ml-auto">
                         <a href="#home" class="nav-item nav-link active">Home</a>
                         <a href="#about" class="nav-item nav-link">About</a>
