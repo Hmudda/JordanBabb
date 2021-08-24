@@ -21,8 +21,13 @@ h6 {
 }
 
 a {
-    color: #313131;
+    /color: #313131;/
+    font-size: 14px;
+    color: black;
     transition: .3s;
+}
+#resumeDownload:hover{
+    color: white;
 }
 
 a:hover,
