@@ -107,21 +107,27 @@
     
 })(jQuery);
 
-function redirectToSMP(){
-    window.open('https://github.com/Hmudda/Simple-Modern-Flashcards','_blank')
+function openNewWindow(url){
+    window.open(url, "_blank")
 }
 
-function redirectToCPPF(){
-    window.open('https://github.com/Hmudda/CPPFinal','_blank')
-}
 
-function redirectToJAVAF(){
-    window.open('https://hmudda.github.io/JAVAFinal/','_blank')
-}
 
-function redirectToINTROJAVAF(){
-    window.open('https://github.com/Hmudda/INTROJAVAFinal','_blank')
-}
+// function redirectToSMP(){
+//     window.open('https://github.com/Hmudda/Simple-Modern-Flashcards','_blank')
+// }
+
+// function redirectToCPPF(){
+//     window.open('https://github.com/Hmudda/CPPFinal','_blank')
+// }
+
+// function redirectToJAVAF(){
+//     window.open('https://hmudda.github.io/JAVAFinal/','_blank')
+// }
+
+// function redirectToINTROJAVAF(){
+//     window.open('https://github.com/Hmudda/INTROJAVAFinal','_blank')
+// }
 
 
 

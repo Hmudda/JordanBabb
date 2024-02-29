@@ -35,7 +35,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div><a id ="resumeDownload" href="img/resume.pdf" target="_blank" class="nav-item nav-link">My Resume<img src="img/download.png" alt="Download Resume" style="width:30px"></a></div>
+                    <div><a id ="resumeDownload" href="img/resume.pdf" target="_blank" class="btn">My Resume&nbsp;<img src="img/download.svg" alt="Download Resume Icon" style="width:30px;filter: invert(1);"></a></div>
                     <div class="navbar-nav ml-auto">
                         <a href="#home" class="nav-item nav-link active">Home</a>
                         <a href="#about" class="nav-item nav-link">About</a>
@@ -68,7 +68,8 @@
                     </div>
                     <div class="col-sm-12 col-md-6 d-none d-md-block">
                         <div class="hero-image">
-                            <img src="img/hero.png" alt="Hero Image">
+                            <!-- <img src="img/hero.png" alt="Hero Image"> -->
+                            <img src="https://ik.imagekit.io/jordanbabb/hero.png" alt="Hero Image of Jordan Babb">
                         </div>
                     </div>
                 </div>
@@ -83,18 +84,20 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="about-img">
-                            <img id="aboutImg" src="img/about.jpg" alt="Image">
+                            <img id="aboutImg" src="https://ik.imagekit.io/jordanbabb/about.jpg" alt="Images of Jordan Babb">
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="about-content">
                             <div class="section-header text-left">
                                 <p>A little about me</p>
-                                <h2>Current OCCC Student</h2>
+                                <h2>Currently searching out new opportunities</h2>
                             </div>
                             <div class="about-text">
                                 <p>
-                                    Graduated Community Christian High School in Norman, OK. I Love being outdoors and exploring! Computer science got my attention after taking a few computer classes in high school. I love solving problems using code and creating programs! I am currently in my last semester at OCCC expecting an Associates in Computer Science before 2022.
+                                    For the past two years I have been creating <span><a href="https://datacrosspoint.com" target="_blank" style="font-size: unset;font-weight: bold;">Cross Point Data</a></span> with a business partner. 
+                                    Together we built a better Real Estate Data Web App which helps counties in Oklahoma complete tasks efficiently.
+                                     I am a problem solver and I strive to find A.i. driven solutions to problems. I Love being outdoors and exploring! One of my favorite hobbies is snowboarding in the winter months.
                                 </p>
                             </div>
                     </div>
@@ -110,9 +113,25 @@
                 <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
                     <p>My Projects</p>
                 </div>
+                <div class="row" style="justify-content: center;">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="service-item"  onclick="openNewWindow('https://datacrosspoint.com')">
+                            <div class="service-icon">
+                                <img src="https://ik.imagekit.io/jordanbabb/reference_frames.png?tr=w-120,h-120" alt="Cross Point Data Logo">
+                                <!-- <i class="fa fa-laptop"></i> -->
+                            </div>
+                            <div class="service-text">
+                                <h3>Cross Point Data</h3>
+                                <p>
+                                    I made a Real Estate Data Web App. Explore properties in Oklahoma and get an insider look at advanced property data!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
-                        <div class="service-item"  onclick="redirectToSMP()">
+                        <div class="service-item"  onclick="openNewWindow('https://github.com/Hmudda/Simple-Modern-Flashcards')">
                             <div class="service-icon">
                                 <i class="fa fa-laptop"></i>
                             </div>
@@ -125,7 +144,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-item" onclick="redirectToCPPF()">
+                        <div class="service-item" onclick="openNewWindow('https://github.com/Hmudda/CPPFinal')">
                             <div class="service-icon">
                                 <i class="fa fa-laptop-code"></i>
                             </div>
@@ -138,7 +157,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-item" onclick="redirectToJAVAF()">
+                        <div class="service-item" onclick="openNewWindow('https://hmudda.github.io/JAVAFinal/')">
                             <div class="service-icon">
                                 <i class="fa fa-laptop-code"></i>
                             </div>
@@ -152,7 +171,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="service-item">
-                            <div class="service-icon" onclick="redirectToINTROJAVAF()">
+                            <div class="service-icon" onclick="openNewWindow('https://github.com/Hmudda/INTROJAVAFinal')">
                                 <i class="fa fa-laptop"></i>
                             </div>
                             <div class="service-text">
@@ -204,6 +223,26 @@
                             <h4>Simple Modern, Moore, OK</h4>
                             <p>
                                 I worked with the Technology team of Simple Modern to create new technology driven methods of training new hires. I also spent time combing through their website finding bugs and coordinating with my manager in order to solve the bug.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Oct 2021 - April 2022</div>
+                            <h2>Data Analyst</h2>
+                            <h4>Lexis Nexis, Oklahoma City, OK</h4>
+                            <p>
+                                I worked as a Data Analyst, converting proprietary data from their Legacy system to a new one. I learned to use coding skills in a production environment.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">April 2022 - Current</div>
+                            <h2>Founder / Lead Full Stack Developer</h2>
+                            <h4>Cross Point Data, Norman, OK</h4>
+                            <p>
+                                I worked as a Data Analyst, converting proprietary data from their Legacy system to a new one. I learned to use coding skills in a production environment.
                             </p>
                         </div>
                     </div>
